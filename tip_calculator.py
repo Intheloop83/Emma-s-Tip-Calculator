@@ -3,11 +3,11 @@ name = input('Type in your name then press enter. ')
 # Create variable to greet/address user by name 
 greeting = input(f'Hello {name}. I will be happy to help you figure out the amount you have to spend on your meal. Press enter.')
 # Create a variable to get input from user about the cost of their meal using float in case there is a cent value ex: $80.15.
-foodcost = float(input('How much did your food cost? Only enter the number.'))
+foodcost = float(input('How much did your food cost? Only enter the number. $'))
 # Print information to let user view the amount they entered.
 print(f'You entered ${foodcost}. ')
 # Create a variable to get users input on the amount they wish to pay for a tip.
-tip = int(input('How much percentage do you want to pay as a tip? Only enter the number. Dont be cheap :) . '))
+tip = int(input('How much percentage do you want to pay as a tip? Only enter the number. Dont be cheap :) % '))
 # Print the tip amount entered by user.
 print(f'Your tip will be {tip}%. ')
 # Create a variable assigning it a value of .10 for the 10 percent tax to be paid for the bill.
